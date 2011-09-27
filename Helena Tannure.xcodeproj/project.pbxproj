@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA2238E143245BD0076078E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238D143245BD0076078E /* UIKit.framework */; };
+		ABA22390143245BD0076078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238F143245BD0076078E /* Foundation.framework */; };
+		ABA22392143245BD0076078E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA22391143245BD0076078E /* CoreGraphics.framework */; };
+		ABA22398143245BD0076078E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABA22396143245BD0076078E /* InfoPlist.strings */; };
+		ABA2239B143245BD0076078E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2239A143245BD0076078E /* main.m */; };
+		ABA2239E143245BD0076078E /* Helena_TannureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2239D143245BD0076078E /* Helena_TannureAppDelegate.m */; };
+		ABA223A1143245BD0076078E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA2239F143245BD0076078E /* MainWindow.xib */; };
+		ABA223A4143245BD0076078E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA223A3143245BD0076078E /* FirstViewController.m */; };
+		ABA223A7143245BD0076078E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA223A6143245BD0076078E /* SecondViewController.m */; };
+		ABA223AA143245BD0076078E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223A8143245BD0076078E /* FirstView.xib */; };
+		ABA223AD143245BD0076078E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223AB143245BD0076078E /* SecondView.xib */; };
+		ABA223B4143245BD0076078E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238D143245BD0076078E /* UIKit.framework */; };
+		ABA223B5143245BD0076078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238F143245BD0076078E /* Foundation.framework */; };
+		ABA223B6143245BD0076078E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA22391143245BD0076078E /* CoreGraphics.framework */; };
+		ABA223BE143245BD0076078E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABA223BC143245BD0076078E /* InfoPlist.strings */; };
+		ABA223C1143245BD0076078E /* Helena_TannureTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ABA223C0143245BD0076078E /* Helena_TannureTests.h */; };
+		ABA223C3143245BD0076078E /* Helena_TannureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA223C2143245BD0076078E /* Helena_TannureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA223B7143245BD0076078E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA22380143245BD0076078E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA22388143245BD0076078E;
+			remoteInfo = "Helena Tannure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA22389143245BD0076078E /* Helena Tannure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helena Tannure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA2238D143245BD0076078E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ABA2238F143245BD0076078E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABA22391143245BD0076078E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ABA22395143245BD0076078E /* Helena Tannure-Info.plist */ = {isa = PBXFileReference; path = "Helena Tannure-Info.plist"; sourceTree = "<group>"; };
+		ABA22397143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABA22399143245BD0076078E /* Helena Tannure-Prefix.pch */ = {isa = PBXFileReference; path = "Helena Tannure-Prefix.pch"; sourceTree = "<group>"; };
+		ABA2239A143245BD0076078E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABA2239C143245BD0076078E /* Helena_TannureAppDelegate.h */ = {isa = PBXFileReference; path = Helena_TannureAppDelegate.h; sourceTree = "<group>"; };
+		ABA2239D143245BD0076078E /* Helena_TannureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helena_TannureAppDelegate.m; sourceTree = "<group>"; };
+		ABA223A0143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		ABA223A2143245BD0076078E /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		ABA223A3143245BD0076078E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		ABA223A5143245BD0076078E /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		ABA223A6143245BD0076078E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		ABA223A9143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		ABA223AC143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		ABA223B3143245BD0076078E /* Helena TannureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helena TannureTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA223BB143245BD0076078E /* Helena TannureTests-Info.plist */ = {isa = PBXFileReference; path = "Helena TannureTests-Info.plist"; sourceTree = "<group>"; };
+		ABA223BD143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABA223BF143245BD0076078E /* Helena TannureTests-Prefix.pch */ = {isa = PBXFileReference; path = "Helena TannureTests-Prefix.pch"; sourceTree = "<group>"; };
+		ABA223C0143245BD0076078E /* Helena_TannureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helena_TannureTests.h; sourceTree = "<group>"; };
+		ABA223C2143245BD0076078E /* Helena_TannureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helena_TannureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA22386143245BD0076078E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA2238E143245BD0076078E /* UIKit.framework in Frameworks */,
+				ABA22390143245BD0076078E /* Foundation.framework in Frameworks */,
+				ABA22392143245BD0076078E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA223AF143245BD0076078E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA223B4143245BD0076078E /* UIKit.framework in Frameworks */,
+				ABA223B5143245BD0076078E /* Foundation.framework in Frameworks */,
+				ABA223B6143245BD0076078E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA2237E143245BD0076078E = {
+			isa = PBXGroup;
+			children = (
+				ABA22393143245BD0076078E /* Helena Tannure */,
+				ABA223B9143245BD0076078E /* Helena TannureTests */,
+				ABA2238C143245BD0076078E /* Frameworks */,
+				ABA2238A143245BD0076078E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA2238A143245BD0076078E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA22389143245BD0076078E /* Helena Tannure.app */,
+				ABA223B3143245BD0076078E /* Helena TannureTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA2238C143245BD0076078E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA2238D143245BD0076078E /* UIKit.framework */,
+				ABA2238F143245BD0076078E /* Foundation.framework */,
+				ABA22391143245BD0076078E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABA22393143245BD0076078E /* Helena Tannure */ = {
+			isa = PBXGroup;
+			children = (
+				ABA2239C143245BD0076078E /* Helena_TannureAppDelegate.h */,
+				ABA2239D143245BD0076078E /* Helena_TannureAppDelegate.m */,
+				ABA2239F143245BD0076078E /* MainWindow.xib */,
+				ABA223A2143245BD0076078E /* FirstViewController.h */,
+				ABA223A3143245BD0076078E /* FirstViewController.m */,
+				ABA223A5143245BD0076078E /* SecondViewController.h */,
+				ABA223A6143245BD0076078E /* SecondViewController.m */,
+				ABA223A8143245BD0076078E /* FirstView.xib */,
+				ABA223AB143245BD0076078E /* SecondView.xib */,
+				ABA22394143245BD0076078E /* Supporting Files */,
+			);
+			path = "Helena Tannure";
+			sourceTree = "<group>";
+		};
+		ABA22394143245BD0076078E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA22395143245BD0076078E /* Helena Tannure-Info.plist */,
+				ABA22396143245BD0076078E /* InfoPlist.strings */,
+				ABA22399143245BD0076078E /* Helena Tannure-Prefix.pch */,
+				ABA2239A143245BD0076078E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABA223B9143245BD0076078E /* Helena TannureTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA223C0143245BD0076078E /* Helena_TannureTests.h */,
+				ABA223C2143245BD0076078E /* Helena_TannureTests.m */,
+				ABA223BA143245BD0076078E /* Supporting Files */,
+			);
+			path = "Helena TannureTests";
+			sourceTree = "<group>";
+		};
+		ABA223BA143245BD0076078E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABA223BB143245BD0076078E /* Helena TannureTests-Info.plist */,
+				ABA223BC143245BD0076078E /* InfoPlist.strings */,
+				ABA223BF143245BD0076078E /* Helena TannureTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA22388143245BD0076078E /* Helena Tannure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA223C6143245BD0076078E /* Build configuration list for PBXNativeTarget "Helena Tannure" */;
+			buildPhases = (
+				ABA22385143245BD0076078E /* Sources */,
+				ABA22386143245BD0076078E /* Frameworks */,
+				ABA22387143245BD0076078E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Helena Tannure";
+			productName = "Helena Tannure";
+			productReference = ABA22389143245BD0076078E /* Helena Tannure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA223B2143245BD0076078E /* Helena TannureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA223C9143245BD0076078E /* Build configuration list for PBXNativeTarget "Helena TannureTests" */;
+			buildPhases = (
+				ABA223AE143245BD0076078E /* Sources */,
+				ABA223AF143245BD0076078E /* Frameworks */,
+				ABA223B0143245BD0076078E /* Resources */,
+				ABA223B1143245BD0076078E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA223B8143245BD0076078E /* PBXTargetDependency */,
+			);
+			name = "Helena TannureTests";
+			productName = "Helena TannureTests";
+			productReference = ABA223B3143245BD0076078E /* Helena TannureTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA22380143245BD0076078E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ABA22383143245BD0076078E /* Build configuration list for PBXProject "Helena Tannure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABA2237E143245BD0076078E;
+			productRefGroup = ABA2238A143245BD0076078E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA22388143245BD0076078E /* Helena Tannure */,
+				ABA223B2143245BD0076078E /* Helena TannureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA22387143245BD0076078E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA22398143245BD0076078E /* InfoPlist.strings in Resources */,
+				ABA223A1143245BD0076078E /* MainWindow.xib in Resources */,
+				ABA223AA143245BD0076078E /* FirstView.xib in Resources */,
+				ABA223AD143245BD0076078E /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA223B0143245BD0076078E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA223BE143245BD0076078E /* InfoPlist.strings in Resources */,
+				ABA223C1143245BD0076078E /* Helena_TannureTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABA223B1143245BD0076078E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA22385143245BD0076078E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA2239B143245BD0076078E /* main.m in Sources */,
+				ABA2239E143245BD0076078E /* Helena_TannureAppDelegate.m in Sources */,
+				ABA223A4143245BD0076078E /* FirstViewController.m in Sources */,
+				ABA223A7143245BD0076078E /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA223AE143245BD0076078E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA223C3143245BD0076078E /* Helena_TannureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA223B8143245BD0076078E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA22388143245BD0076078E /* Helena Tannure */;
+			targetProxy = ABA223B7143245BD0076078E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABA22396143245BD0076078E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA22397143245BD0076078E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABA2239F143245BD0076078E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA223A0143245BD0076078E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		ABA223A8143245BD0076078E /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA223A9143245BD0076078E /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		ABA223AB143245BD0076078E /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA223AC143245BD0076078E /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		ABA223BC143245BD0076078E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABA223BD143245BD0076078E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABA223C4143245BD0076078E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABA223C5143245BD0076078E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ABA223C7143245BD0076078E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helena Tannure/Helena Tannure-Prefix.pch";
+				INFOPLIST_FILE = "Helena Tannure/Helena Tannure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ABA223C8143245BD0076078E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helena Tannure/Helena Tannure-Prefix.pch";
+				INFOPLIST_FILE = "Helena Tannure/Helena Tannure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ABA223CA143245BD0076078E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Helena Tannure.app/Helena Tannure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helena TannureTests/Helena TannureTests-Prefix.pch";
+				INFOPLIST_FILE = "Helena TannureTests/Helena TannureTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ABA223CB143245BD0076078E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Helena Tannure.app/Helena Tannure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helena TannureTests/Helena TannureTests-Prefix.pch";
+				INFOPLIST_FILE = "Helena TannureTests/Helena TannureTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA22383143245BD0076078E /* Build configuration list for PBXProject "Helena Tannure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA223C4143245BD0076078E /* Debug */,
+				ABA223C5143245BD0076078E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA223C6143245BD0076078E /* Build configuration list for PBXNativeTarget "Helena Tannure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA223C7143245BD0076078E /* Debug */,
+				ABA223C8143245BD0076078E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA223C9143245BD0076078E /* Build configuration list for PBXNativeTarget "Helena TannureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA223CA143245BD0076078E /* Debug */,
+				ABA223CB143245BD0076078E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA22380143245BD0076078E /* Project object */;
+}
