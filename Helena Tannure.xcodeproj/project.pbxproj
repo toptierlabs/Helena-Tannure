@@ -7,26 +7,214 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
+		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
+		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
+		320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A737074758E53BA54BE94 /* libThree20UINavigator.a */; };
+		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
+		320B6C86F11D9990244A9731 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 320B6C86F11D9990244A9730 /* Three20.bundle */; };
+		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
+		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
+		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		AB5081D9143642B300BBA042 /* PhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5081D8143642B300BBA042 /* PhotoSource.m */; };
+		AB8E8F5F14352390002FBA74 /* instant_poetry_small.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5714352390002FBA74 /* instant_poetry_small.png */; };
+		AB8E8F6014352390002FBA74 /* instant_poetry_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5814352390002FBA74 /* instant_poetry_thumb.png */; };
+		AB8E8F6114352390002FBA74 /* level_me_up_small.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5914352390002FBA74 /* level_me_up_small.png */; };
+		AB8E8F6214352390002FBA74 /* level_me_up_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5A14352390002FBA74 /* level_me_up_thumb.png */; };
+		AB8E8F6314352390002FBA74 /* math_ninja_small.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5B14352390002FBA74 /* math_ninja_small.png */; };
+		AB8E8F6414352390002FBA74 /* math_ninja_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5C14352390002FBA74 /* math_ninja_thumb.png */; };
+		AB8E8F6514352390002FBA74 /* rpg_calc_small.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5D14352390002FBA74 /* rpg_calc_small.png */; };
+		AB8E8F6614352390002FBA74 /* rpg_calc_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5E14352390002FBA74 /* rpg_calc_thumb.png */; };
 		ABA2238E143245BD0076078E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238D143245BD0076078E /* UIKit.framework */; };
 		ABA22390143245BD0076078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238F143245BD0076078E /* Foundation.framework */; };
 		ABA22392143245BD0076078E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA22391143245BD0076078E /* CoreGraphics.framework */; };
-		ABA22398143245BD0076078E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABA22396143245BD0076078E /* InfoPlist.strings */; };
-		ABA2239B143245BD0076078E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2239A143245BD0076078E /* main.m */; };
-		ABA2239E143245BD0076078E /* Helena_TannureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA2239D143245BD0076078E /* Helena_TannureAppDelegate.m */; };
 		ABA223A1143245BD0076078E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA2239F143245BD0076078E /* MainWindow.xib */; };
-		ABA223A4143245BD0076078E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA223A3143245BD0076078E /* FirstViewController.m */; };
-		ABA223A7143245BD0076078E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA223A6143245BD0076078E /* SecondViewController.m */; };
 		ABA223AA143245BD0076078E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223A8143245BD0076078E /* FirstView.xib */; };
-		ABA223AD143245BD0076078E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223AB143245BD0076078E /* SecondView.xib */; };
 		ABA223B4143245BD0076078E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238D143245BD0076078E /* UIKit.framework */; };
 		ABA223B5143245BD0076078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA2238F143245BD0076078E /* Foundation.framework */; };
 		ABA223B6143245BD0076078E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA22391143245BD0076078E /* CoreGraphics.framework */; };
 		ABA223BE143245BD0076078E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABA223BC143245BD0076078E /* InfoPlist.strings */; };
 		ABA223C1143245BD0076078E /* Helena_TannureTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ABA223C0143245BD0076078E /* Helena_TannureTests.h */; };
 		ABA223C3143245BD0076078E /* Helena_TannureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA223C2143245BD0076078E /* Helena_TannureTests.m */; };
+		ABA223D814324EB90076078E /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223D614324EB80076078E /* HomeView.xib */; };
+		ABA223DA14325AD80076078E /* facebook_round.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA223D914325AD80076078E /* facebook_round.png */; };
+		ABA223DE1432606E0076078E /* rounded_blue_home_button_4805.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA223DD1432606E0076078E /* rounded_blue_home_button_4805.png */; };
+		ABA223E3143262060076078E /* AgendaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223E1143262060076078E /* AgendaView.xib */; };
+		ABA223E5143271780076078E /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA223E4143271780076078E /* purple.png */; };
+		ABA223E7143271860076078E /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA223E6143271860076078E /* grey.png */; };
+		ABBAFB7614334D5D007E91C8 /* AgendaEventsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBAFB7514334D5D007E91C8 /* AgendaEventsViewCell.xib */; };
+		ABBAFB7814335556007E91C8 /* tablecellgray.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAFB7714335556007E91C8 /* tablecellgray.png */; };
+		ABBAFB7A143356ED007E91C8 /* tablecellpink.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAFB79143356ED007E91C8 /* tablecellpink.png */; };
+		ABBAFB7C143393EE007E91C8 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBAFB7B143393EE007E91C8 /* libxml2.dylib */; };
+		ABD0755F1436355200A052E0 /* AgendaEventsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AD91436354D00A052E0 /* AgendaEventsViewCell.m */; };
+		ABD075601436355200A052E0 /* AgendaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06ADB1436354D00A052E0 /* AgendaTableViewCell.m */; };
+		ABD075621436355200A052E0 /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06ADE1436354D00A052E0 /* AgendaViewController.m */; };
+		ABD075671436355200A052E0 /* Helena_TannureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AE81436354D00A052E0 /* Helena_TannureAppDelegate.m */; };
+		ABD075691436355200A052E0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AEB1436354D00A052E0 /* HomeViewController.m */; };
+		ABD0756A1436355200A052E0 /* ListVideoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AED1436354D00A052E0 /* ListVideoTableViewController.m */; };
+		ABD0756C1436355200A052E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AEF1436354D00A052E0 /* main.m */; };
+		ABD0756D1436355200A052E0 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AF11436354D00A052E0 /* NavController.m */; };
+		ABD0756E1436355200A052E0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AF31436354D00A052E0 /* Photo.m */; };
+		ABD0756F1436355200A052E0 /* PhotoSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AF51436354D00A052E0 /* PhotoSet.m */; };
+		ABD075701436355200A052E0 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AF71436354D00A052E0 /* PhotoViewController.m */; };
+		ABD075711436355200A052E0 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AF91436354D00A052E0 /* TFHpple.m */; };
+		ABD075721436355200A052E0 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AFB1436354D00A052E0 /* TFHppleElement.m */; };
+		ABD075731436355200A052E0 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06AFD1436354D00A052E0 /* XPathQuery.m */; };
+		ABD075751436355200A052E0 /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD06B001436354D00A052E0 /* YoutubeViewController.m */; };
+		ABDF40D81434B52D00704B21 /* ListVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABDF40D61434B52D00704B21 /* ListVideoView.xib */; };
+		ABDF40DA1434C17400704B21 /* VideosPrincipal.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABDF40D91434C17400704B21 /* VideosPrincipal.plist */; };
+		ABDF40DC1434C18100704B21 /* VideosExtra.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABDF40DB1434C18100704B21 /* VideosExtra.plist */; };
+		ABDF40E11434DAFF00704B21 /* YoutubeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABDF40DF1434DAFF00704B21 /* YoutubeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3201088596B4756681693702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3201088596B4756681693700 /* Three20UICommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20UICommon;
+		};
+		3201088596B4756681693706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3201088596B4756681693700 /* Three20UICommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20UICommon;
+		};
+		320A2827FEC940B25BC42C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Core;
+		};
+		320A2827FEC940B25BC42C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Core;
+		};
+		320A5A189C235877202780D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Network;
+		};
+		320A5A189C235877202780D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Network;
+		};
+		320A737074758E53BA54BE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20UINavigator;
+		};
+		320A737074758E53BA54BE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20UINavigator;
+		};
+		320CC833B8AF0ACFD35E6222 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Style;
+		};
+		320CC833B8AF0ACFD35E6226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Style;
+		};
+		320D7DCCE32703ACAB9A45E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+		320D7DCCE32703ACAB9A45E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+		320F2C48872C2E2C4DF86202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20UI;
+		};
+		320F2C48872C2E2C4DF86206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20UI;
+		};
+		AB8E8F0314351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20UnitTests;
+		};
+		AB8E8F0614351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20CoreUnitTests;
+		};
+		AB8E8F0914351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20NetworkUnitTests;
+		};
+		AB8E8F0C14351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20StyleUnitTests;
+		};
+		AB8E8F0F14351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20UIUnitTests;
+		};
+		AB8E8F1214351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3201088596B4756681693700 /* Three20UICommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20UICommonUnitTests;
+		};
+		AB8E8F1514351587002FBA74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = Three20UINavigatorUnitTests;
+		};
 		ABA223B7143245BD0076078E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABA22380143245BD0076078E /* Project object */;
@@ -37,29 +225,81 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3201088596B4756681693700 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = ../../three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
+		320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../../three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		320A5A189C235877202780D0 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../../three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
+		320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UINavigator.xcodeproj; path = ../../three20/src/Three20UINavigator/Three20UINavigator.xcodeproj; sourceTree = SOURCE_ROOT; };
+		320AF8492C47A4D819F7C450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		320B6C86F11D9990244A9730 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../../three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
+		320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = ../../three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
+		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
+		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		AB5081D7143642B300BBA042 /* PhotoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSource.h; sourceTree = "<group>"; };
+		AB5081D8143642B300BBA042 /* PhotoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSource.m; sourceTree = "<group>"; };
+		AB8E8F5714352390002FBA74 /* instant_poetry_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instant_poetry_small.png; sourceTree = "<group>"; };
+		AB8E8F5814352390002FBA74 /* instant_poetry_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instant_poetry_thumb.png; sourceTree = "<group>"; };
+		AB8E8F5914352390002FBA74 /* level_me_up_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_me_up_small.png; sourceTree = "<group>"; };
+		AB8E8F5A14352390002FBA74 /* level_me_up_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = level_me_up_thumb.png; sourceTree = "<group>"; };
+		AB8E8F5B14352390002FBA74 /* math_ninja_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_ninja_small.png; sourceTree = "<group>"; };
+		AB8E8F5C14352390002FBA74 /* math_ninja_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math_ninja_thumb.png; sourceTree = "<group>"; };
+		AB8E8F5D14352390002FBA74 /* rpg_calc_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg_calc_small.png; sourceTree = "<group>"; };
+		AB8E8F5E14352390002FBA74 /* rpg_calc_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg_calc_thumb.png; sourceTree = "<group>"; };
 		ABA22389143245BD0076078E /* Helena Tannure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helena Tannure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA2238D143245BD0076078E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABA2238F143245BD0076078E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABA22391143245BD0076078E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ABA22395143245BD0076078E /* Helena Tannure-Info.plist */ = {isa = PBXFileReference; path = "Helena Tannure-Info.plist"; sourceTree = "<group>"; };
-		ABA22397143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ABA22399143245BD0076078E /* Helena Tannure-Prefix.pch */ = {isa = PBXFileReference; path = "Helena Tannure-Prefix.pch"; sourceTree = "<group>"; };
-		ABA2239A143245BD0076078E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ABA2239C143245BD0076078E /* Helena_TannureAppDelegate.h */ = {isa = PBXFileReference; path = Helena_TannureAppDelegate.h; sourceTree = "<group>"; };
-		ABA2239D143245BD0076078E /* Helena_TannureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helena_TannureAppDelegate.m; sourceTree = "<group>"; };
 		ABA223A0143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		ABA223A2143245BD0076078E /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
-		ABA223A3143245BD0076078E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		ABA223A5143245BD0076078E /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
-		ABA223A6143245BD0076078E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		ABA223A9143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
-		ABA223AC143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		ABA223B3143245BD0076078E /* Helena TannureTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Helena TannureTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA223BB143245BD0076078E /* Helena TannureTests-Info.plist */ = {isa = PBXFileReference; path = "Helena TannureTests-Info.plist"; sourceTree = "<group>"; };
+		ABA223BB143245BD0076078E /* Helena TannureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helena TannureTests-Info.plist"; sourceTree = "<group>"; };
 		ABA223BD143245BD0076078E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ABA223BF143245BD0076078E /* Helena TannureTests-Prefix.pch */ = {isa = PBXFileReference; path = "Helena TannureTests-Prefix.pch"; sourceTree = "<group>"; };
+		ABA223BF143245BD0076078E /* Helena TannureTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helena TannureTests-Prefix.pch"; sourceTree = "<group>"; };
 		ABA223C0143245BD0076078E /* Helena_TannureTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helena_TannureTests.h; sourceTree = "<group>"; };
 		ABA223C2143245BD0076078E /* Helena_TannureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helena_TannureTests.m; sourceTree = "<group>"; };
+		ABA223D614324EB80076078E /* HomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeView.xib; path = "Helena Tannure/HomeView.xib"; sourceTree = "<group>"; };
+		ABA223D914325AD80076078E /* facebook_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_round.png; sourceTree = "<group>"; };
+		ABA223DD1432606E0076078E /* rounded_blue_home_button_4805.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rounded_blue_home_button_4805.png; sourceTree = "<group>"; };
+		ABA223E1143262060076078E /* AgendaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgendaView.xib; path = "Helena Tannure/AgendaView.xib"; sourceTree = "<group>"; };
+		ABA223E4143271780076078E /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		ABA223E6143271860076078E /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		ABBAFB7514334D5D007E91C8 /* AgendaEventsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgendaEventsViewCell.xib; sourceTree = "<group>"; };
+		ABBAFB7714335556007E91C8 /* tablecellgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablecellgray.png; sourceTree = "<group>"; };
+		ABBAFB79143356ED007E91C8 /* tablecellpink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablecellpink.png; sourceTree = "<group>"; };
+		ABBAFB7B143393EE007E91C8 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		ABD06AD81436354D00A052E0 /* AgendaEventsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaEventsViewCell.h; sourceTree = "<group>"; };
+		ABD06AD91436354D00A052E0 /* AgendaEventsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaEventsViewCell.m; sourceTree = "<group>"; };
+		ABD06ADA1436354D00A052E0 /* AgendaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaTableViewCell.h; sourceTree = "<group>"; };
+		ABD06ADB1436354D00A052E0 /* AgendaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaTableViewCell.m; sourceTree = "<group>"; };
+		ABD06ADD1436354D00A052E0 /* AgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		ABD06ADE1436354D00A052E0 /* AgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
+		ABD06AE61436354D00A052E0 /* Helena Tannure-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Helena Tannure-Prefix.pch"; sourceTree = "<group>"; };
+		ABD06AE71436354D00A052E0 /* Helena_TannureAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helena_TannureAppDelegate.h; sourceTree = "<group>"; };
+		ABD06AE81436354D00A052E0 /* Helena_TannureAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helena_TannureAppDelegate.m; sourceTree = "<group>"; };
+		ABD06AEA1436354D00A052E0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		ABD06AEB1436354D00A052E0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		ABD06AEC1436354D00A052E0 /* ListVideoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVideoTableViewController.h; sourceTree = "<group>"; };
+		ABD06AED1436354D00A052E0 /* ListVideoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVideoTableViewController.m; sourceTree = "<group>"; };
+		ABD06AEF1436354D00A052E0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABD06AF01436354D00A052E0 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		ABD06AF11436354D00A052E0 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		ABD06AF21436354D00A052E0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		ABD06AF31436354D00A052E0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		ABD06AF41436354D00A052E0 /* PhotoSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSet.h; sourceTree = "<group>"; };
+		ABD06AF51436354D00A052E0 /* PhotoSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSet.m; sourceTree = "<group>"; };
+		ABD06AF61436354D00A052E0 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		ABD06AF71436354D00A052E0 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		ABD06AF81436354D00A052E0 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		ABD06AF91436354D00A052E0 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		ABD06AFA1436354D00A052E0 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		ABD06AFB1436354D00A052E0 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		ABD06AFC1436354D00A052E0 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		ABD06AFD1436354D00A052E0 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		ABD06AFF1436354D00A052E0 /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeViewController.h; sourceTree = "<group>"; };
+		ABD06B001436354D00A052E0 /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeViewController.m; sourceTree = "<group>"; };
+		ABDF40D61434B52D00704B21 /* ListVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ListVideoView.xib; path = "Helena Tannure/ListVideoView.xib"; sourceTree = "<group>"; };
+		ABDF40D91434C17400704B21 /* VideosPrincipal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VideosPrincipal.plist; sourceTree = "<group>"; };
+		ABDF40DB1434C18100704B21 /* VideosExtra.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VideosExtra.plist; sourceTree = "<group>"; };
+		ABDF40DF1434DAFF00704B21 /* YoutubeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YoutubeView.xib; path = "Helena Tannure/YoutubeView.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +307,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */,
+				320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */,
+				320A737074758E53BA54BE95 /* libThree20UINavigator.a in Frameworks */,
+				320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */,
+				320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */,
+				320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */,
+				320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */,
+				320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */,
+				ABBAFB7C143393EE007E91C8 /* libxml2.dylib in Frameworks */,
 				ABA2238E143245BD0076078E /* UIKit.framework in Frameworks */,
 				ABA22390143245BD0076078E /* Foundation.framework in Frameworks */,
 				ABA22392143245BD0076078E /* CoreGraphics.framework in Frameworks */,
@@ -86,10 +335,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3201088596B4756681693703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3201088596B4756681693704 /* libThree20UICommon.a */,
+				AB8E8F1314351587002FBA74 /* UICommonUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320A2827FEC940B25BC42C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320A2827FEC940B25BC42C64 /* libThree20Core.a */,
+				AB8E8F0714351587002FBA74 /* CoreUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320A5A189C235877202780D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320A5A189C235877202780D4 /* libThree20Network.a */,
+				AB8E8F0A14351587002FBA74 /* NetworkUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320A737074758E53BA54BE93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320A737074758E53BA54BE94 /* libThree20UINavigator.a */,
+				AB8E8F1614351587002FBA74 /* UINavigatorUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320CC833B8AF0ACFD35E6223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320CC833B8AF0ACFD35E6224 /* libThree20Style.a */,
+				AB8E8F0D14351587002FBA74 /* StyleUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320D7DCCE32703ACAB9A45E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320D7DCCE32703ACAB9A45E4 /* libThree20.a */,
+				AB8E8F0414351587002FBA74 /* Three20UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		320F2C48872C2E2C4DF86203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				320F2C48872C2E2C4DF86204 /* libThree20UI.a */,
+				AB8E8F1014351587002FBA74 /* UIUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5081C0143637C600BBA042 /* HtmlHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ABD06AF81436354D00A052E0 /* TFHpple.h */,
+				ABD06AF91436354D00A052E0 /* TFHpple.m */,
+				ABD06AFA1436354D00A052E0 /* TFHppleElement.h */,
+				ABD06AFB1436354D00A052E0 /* TFHppleElement.m */,
+				ABD06AFC1436354D00A052E0 /* XPathQuery.h */,
+				ABD06AFD1436354D00A052E0 /* XPathQuery.m */,
+			);
+			name = HtmlHelper;
+			sourceTree = "<group>";
+		};
 		ABA2237E143245BD0076078E = {
 			isa = PBXGroup;
 			children = (
-				ABA22393143245BD0076078E /* Helena Tannure */,
+				ABD06AD71436354D00A052E0 /* Helena Tannure */,
+				ABBAFB7B143393EE007E91C8 /* libxml2.dylib */,
+				ABA223CC143248F90076078E /* Resources */,
 				ABA223B9143245BD0076078E /* Helena TannureTests */,
 				ABA2238C143245BD0076078E /* Frameworks */,
 				ABA2238A143245BD0076078E /* Products */,
@@ -108,39 +435,19 @@
 		ABA2238C143245BD0076078E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
+				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
+				320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */,
+				320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */,
+				320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */,
+				320AF8492C47A4D819F7C450 /* QuartzCore.framework */,
+				320A5A189C235877202780D0 /* Three20Network.xcodeproj */,
+				320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */,
 				ABA2238D143245BD0076078E /* UIKit.framework */,
 				ABA2238F143245BD0076078E /* Foundation.framework */,
 				ABA22391143245BD0076078E /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ABA22393143245BD0076078E /* Helena Tannure */ = {
-			isa = PBXGroup;
-			children = (
-				ABA2239C143245BD0076078E /* Helena_TannureAppDelegate.h */,
-				ABA2239D143245BD0076078E /* Helena_TannureAppDelegate.m */,
-				ABA2239F143245BD0076078E /* MainWindow.xib */,
-				ABA223A2143245BD0076078E /* FirstViewController.h */,
-				ABA223A3143245BD0076078E /* FirstViewController.m */,
-				ABA223A5143245BD0076078E /* SecondViewController.h */,
-				ABA223A6143245BD0076078E /* SecondViewController.m */,
-				ABA223A8143245BD0076078E /* FirstView.xib */,
-				ABA223AB143245BD0076078E /* SecondView.xib */,
-				ABA22394143245BD0076078E /* Supporting Files */,
-			);
-			path = "Helena Tannure";
-			sourceTree = "<group>";
-		};
-		ABA22394143245BD0076078E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABA22395143245BD0076078E /* Helena Tannure-Info.plist */,
-				ABA22396143245BD0076078E /* InfoPlist.strings */,
-				ABA22399143245BD0076078E /* Helena Tannure-Prefix.pch */,
-				ABA2239A143245BD0076078E /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		ABA223B9143245BD0076078E /* Helena TannureTests */ = {
@@ -163,6 +470,71 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABA223CC143248F90076078E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB8E8F5714352390002FBA74 /* instant_poetry_small.png */,
+				AB8E8F5814352390002FBA74 /* instant_poetry_thumb.png */,
+				AB8E8F5914352390002FBA74 /* level_me_up_small.png */,
+				AB8E8F5A14352390002FBA74 /* level_me_up_thumb.png */,
+				AB8E8F5B14352390002FBA74 /* math_ninja_small.png */,
+				AB8E8F5C14352390002FBA74 /* math_ninja_thumb.png */,
+				AB8E8F5D14352390002FBA74 /* rpg_calc_small.png */,
+				AB8E8F5E14352390002FBA74 /* rpg_calc_thumb.png */,
+				320B6C86F11D9990244A9730 /* Three20.bundle */,
+				ABBAFB79143356ED007E91C8 /* tablecellpink.png */,
+				ABBAFB7714335556007E91C8 /* tablecellgray.png */,
+				ABA223D914325AD80076078E /* facebook_round.png */,
+				ABA223DD1432606E0076078E /* rounded_blue_home_button_4805.png */,
+				ABA223E4143271780076078E /* purple.png */,
+				ABA223E6143271860076078E /* grey.png */,
+				ABA2239F143245BD0076078E /* MainWindow.xib */,
+				ABA223D614324EB80076078E /* HomeView.xib */,
+				ABA223E1143262060076078E /* AgendaView.xib */,
+				ABA223A8143245BD0076078E /* FirstView.xib */,
+				ABBAFB7514334D5D007E91C8 /* AgendaEventsViewCell.xib */,
+				ABDF40D61434B52D00704B21 /* ListVideoView.xib */,
+				ABDF40DF1434DAFF00704B21 /* YoutubeView.xib */,
+				ABDF40D91434C17400704B21 /* VideosPrincipal.plist */,
+				ABDF40DB1434C18100704B21 /* VideosExtra.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABD06AD71436354D00A052E0 /* Helena Tannure */ = {
+			isa = PBXGroup;
+			children = (
+				AB5081C0143637C600BBA042 /* HtmlHelper */,
+				ABD06AD81436354D00A052E0 /* AgendaEventsViewCell.h */,
+				ABD06AD91436354D00A052E0 /* AgendaEventsViewCell.m */,
+				ABD06ADA1436354D00A052E0 /* AgendaTableViewCell.h */,
+				ABD06ADB1436354D00A052E0 /* AgendaTableViewCell.m */,
+				ABD06ADD1436354D00A052E0 /* AgendaViewController.h */,
+				ABD06ADE1436354D00A052E0 /* AgendaViewController.m */,
+				ABD06AE61436354D00A052E0 /* Helena Tannure-Prefix.pch */,
+				ABD06AE71436354D00A052E0 /* Helena_TannureAppDelegate.h */,
+				ABD06AE81436354D00A052E0 /* Helena_TannureAppDelegate.m */,
+				ABD06AEA1436354D00A052E0 /* HomeViewController.h */,
+				ABD06AEB1436354D00A052E0 /* HomeViewController.m */,
+				ABD06AEC1436354D00A052E0 /* ListVideoTableViewController.h */,
+				ABD06AED1436354D00A052E0 /* ListVideoTableViewController.m */,
+				ABD06AEF1436354D00A052E0 /* main.m */,
+				ABD06AF01436354D00A052E0 /* NavController.h */,
+				ABD06AF11436354D00A052E0 /* NavController.m */,
+				ABD06AF21436354D00A052E0 /* Photo.h */,
+				ABD06AF31436354D00A052E0 /* Photo.m */,
+				ABD06AF41436354D00A052E0 /* PhotoSet.h */,
+				ABD06AF51436354D00A052E0 /* PhotoSet.m */,
+				ABD06AF61436354D00A052E0 /* PhotoViewController.h */,
+				ABD06AF71436354D00A052E0 /* PhotoViewController.m */,
+				ABD06AFF1436354D00A052E0 /* YoutubeViewController.h */,
+				ABD06B001436354D00A052E0 /* YoutubeViewController.m */,
+				AB5081D7143642B300BBA042 /* PhotoSource.h */,
+				AB5081D8143642B300BBA042 /* PhotoSource.m */,
+			);
+			path = "Helena Tannure";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +549,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				3201088596B4756681693701 /* PBXTargetDependency */,
+				320D7DCCE32703ACAB9A45E1 /* PBXTargetDependency */,
+				320A737074758E53BA54BE91 /* PBXTargetDependency */,
+				320A2827FEC940B25BC42C61 /* PBXTargetDependency */,
+				320F2C48872C2E2C4DF86201 /* PBXTargetDependency */,
+				320A5A189C235877202780D1 /* PBXTargetDependency */,
+				320CC833B8AF0ACFD35E6221 /* PBXTargetDependency */,
 			);
 			name = "Helena Tannure";
 			productName = "Helena Tannure";
@@ -217,6 +596,36 @@
 			mainGroup = ABA2237E143245BD0076078E;
 			productRefGroup = ABA2238A143245BD0076078E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 320D7DCCE32703ACAB9A45E3 /* Products */;
+					ProjectRef = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
+				},
+				{
+					ProductGroup = 320A2827FEC940B25BC42C63 /* Products */;
+					ProjectRef = 320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */;
+				},
+				{
+					ProductGroup = 320A5A189C235877202780D3 /* Products */;
+					ProjectRef = 320A5A189C235877202780D0 /* Three20Network.xcodeproj */;
+				},
+				{
+					ProductGroup = 320CC833B8AF0ACFD35E6223 /* Products */;
+					ProjectRef = 320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */;
+				},
+				{
+					ProductGroup = 320F2C48872C2E2C4DF86203 /* Products */;
+					ProjectRef = 320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */;
+				},
+				{
+					ProductGroup = 3201088596B4756681693703 /* Products */;
+					ProjectRef = 3201088596B4756681693700 /* Three20UICommon.xcodeproj */;
+				},
+				{
+					ProductGroup = 320A737074758E53BA54BE93 /* Products */;
+					ProjectRef = 320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABA22388143245BD0076078E /* Helena Tannure */,
@@ -225,15 +634,136 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3201088596B4756681693704 /* libThree20UICommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UICommon.a;
+			remoteRef = 3201088596B4756681693706 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		320A2827FEC940B25BC42C64 /* libThree20Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Core.a;
+			remoteRef = 320A2827FEC940B25BC42C66 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		320A5A189C235877202780D4 /* libThree20Network.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Network.a;
+			remoteRef = 320A5A189C235877202780D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		320A737074758E53BA54BE94 /* libThree20UINavigator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UINavigator.a;
+			remoteRef = 320A737074758E53BA54BE96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		320CC833B8AF0ACFD35E6224 /* libThree20Style.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Style.a;
+			remoteRef = 320CC833B8AF0ACFD35E6226 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		320D7DCCE32703ACAB9A45E4 /* libThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20.a;
+			remoteRef = 320D7DCCE32703ACAB9A45E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		320F2C48872C2E2C4DF86204 /* libThree20UI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UI.a;
+			remoteRef = 320F2C48872C2E2C4DF86206 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F0414351587002FBA74 /* Three20UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Three20UnitTests.octest;
+			remoteRef = AB8E8F0314351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F0714351587002FBA74 /* CoreUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreUnitTests.octest;
+			remoteRef = AB8E8F0614351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F0A14351587002FBA74 /* NetworkUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NetworkUnitTests.octest;
+			remoteRef = AB8E8F0914351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F0D14351587002FBA74 /* StyleUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StyleUnitTests.octest;
+			remoteRef = AB8E8F0C14351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F1014351587002FBA74 /* UIUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UIUnitTests.octest;
+			remoteRef = AB8E8F0F14351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F1314351587002FBA74 /* UICommonUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UICommonUnitTests.octest;
+			remoteRef = AB8E8F1214351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AB8E8F1614351587002FBA74 /* UINavigatorUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UINavigatorUnitTests.octest;
+			remoteRef = AB8E8F1514351587002FBA74 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		ABA22387143245BD0076078E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA22398143245BD0076078E /* InfoPlist.strings in Resources */,
+				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
 				ABA223A1143245BD0076078E /* MainWindow.xib in Resources */,
 				ABA223AA143245BD0076078E /* FirstView.xib in Resources */,
-				ABA223AD143245BD0076078E /* SecondView.xib in Resources */,
+				ABA223D814324EB90076078E /* HomeView.xib in Resources */,
+				ABA223DA14325AD80076078E /* facebook_round.png in Resources */,
+				ABA223DE1432606E0076078E /* rounded_blue_home_button_4805.png in Resources */,
+				ABA223E3143262060076078E /* AgendaView.xib in Resources */,
+				ABA223E5143271780076078E /* purple.png in Resources */,
+				ABA223E7143271860076078E /* grey.png in Resources */,
+				ABBAFB7614334D5D007E91C8 /* AgendaEventsViewCell.xib in Resources */,
+				ABBAFB7814335556007E91C8 /* tablecellgray.png in Resources */,
+				ABBAFB7A143356ED007E91C8 /* tablecellpink.png in Resources */,
+				ABDF40D81434B52D00704B21 /* ListVideoView.xib in Resources */,
+				ABDF40DA1434C17400704B21 /* VideosPrincipal.plist in Resources */,
+				ABDF40DC1434C18100704B21 /* VideosExtra.plist in Resources */,
+				ABDF40E11434DAFF00704B21 /* YoutubeView.xib in Resources */,
+				AB8E8F5F14352390002FBA74 /* instant_poetry_small.png in Resources */,
+				AB8E8F6014352390002FBA74 /* instant_poetry_thumb.png in Resources */,
+				AB8E8F6114352390002FBA74 /* level_me_up_small.png in Resources */,
+				AB8E8F6214352390002FBA74 /* level_me_up_thumb.png in Resources */,
+				AB8E8F6314352390002FBA74 /* math_ninja_small.png in Resources */,
+				AB8E8F6414352390002FBA74 /* math_ninja_thumb.png in Resources */,
+				AB8E8F6514352390002FBA74 /* rpg_calc_small.png in Resources */,
+				AB8E8F6614352390002FBA74 /* rpg_calc_thumb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +799,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA2239B143245BD0076078E /* main.m in Sources */,
-				ABA2239E143245BD0076078E /* Helena_TannureAppDelegate.m in Sources */,
-				ABA223A4143245BD0076078E /* FirstViewController.m in Sources */,
-				ABA223A7143245BD0076078E /* SecondViewController.m in Sources */,
+				ABD0755F1436355200A052E0 /* AgendaEventsViewCell.m in Sources */,
+				ABD075601436355200A052E0 /* AgendaTableViewCell.m in Sources */,
+				ABD075621436355200A052E0 /* AgendaViewController.m in Sources */,
+				ABD075671436355200A052E0 /* Helena_TannureAppDelegate.m in Sources */,
+				ABD075691436355200A052E0 /* HomeViewController.m in Sources */,
+				ABD0756A1436355200A052E0 /* ListVideoTableViewController.m in Sources */,
+				ABD0756C1436355200A052E0 /* main.m in Sources */,
+				ABD0756D1436355200A052E0 /* NavController.m in Sources */,
+				ABD0756E1436355200A052E0 /* Photo.m in Sources */,
+				ABD0756F1436355200A052E0 /* PhotoSet.m in Sources */,
+				ABD075701436355200A052E0 /* PhotoViewController.m in Sources */,
+				ABD075711436355200A052E0 /* TFHpple.m in Sources */,
+				ABD075721436355200A052E0 /* TFHppleElement.m in Sources */,
+				ABD075731436355200A052E0 /* XPathQuery.m in Sources */,
+				ABD075751436355200A052E0 /* YoutubeViewController.m in Sources */,
+				AB5081D9143642B300BBA042 /* PhotoSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +829,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3201088596B4756681693701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UICommon;
+			targetProxy = 3201088596B4756681693702 /* PBXContainerItemProxy */;
+		};
+		320A2827FEC940B25BC42C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Core;
+			targetProxy = 320A2827FEC940B25BC42C62 /* PBXContainerItemProxy */;
+		};
+		320A5A189C235877202780D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Network;
+			targetProxy = 320A5A189C235877202780D2 /* PBXContainerItemProxy */;
+		};
+		320A737074758E53BA54BE91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UINavigator;
+			targetProxy = 320A737074758E53BA54BE92 /* PBXContainerItemProxy */;
+		};
+		320CC833B8AF0ACFD35E6221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Style;
+			targetProxy = 320CC833B8AF0ACFD35E6222 /* PBXContainerItemProxy */;
+		};
+		320D7DCCE32703ACAB9A45E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20;
+			targetProxy = 320D7DCCE32703ACAB9A45E2 /* PBXContainerItemProxy */;
+		};
+		320F2C48872C2E2C4DF86201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UI;
+			targetProxy = 320F2C48872C2E2C4DF86202 /* PBXContainerItemProxy */;
+		};
 		ABA223B8143245BD0076078E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABA22388143245BD0076078E /* Helena Tannure */;
@@ -295,20 +872,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABA22396143245BD0076078E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABA22397143245BD0076078E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		ABA2239F143245BD0076078E /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ABA223A0143245BD0076078E /* en */,
 			);
 			name = MainWindow.xib;
+			path = "Helena Tannure";
 			sourceTree = "<group>";
 		};
 		ABA223A8143245BD0076078E /* FirstView.xib */ = {
@@ -317,14 +887,7 @@
 				ABA223A9143245BD0076078E /* en */,
 			);
 			name = FirstView.xib;
-			sourceTree = "<group>";
-		};
-		ABA223AB143245BD0076078E /* SecondView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABA223AC143245BD0076078E /* en */,
-			);
-			name = SecondView.xib;
+			path = "Helena Tannure";
 			sourceTree = "<group>";
 		};
 		ABA223BC143245BD0076078E /* InfoPlist.strings */ = {
@@ -350,7 +913,17 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20",
+					"$(BUILT_PRODUCTS_DIR)/../../three20",
+					../../three20/Build/Products/three20,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lxml2",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -364,8 +937,18 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/../three20",
+					"$(BUILT_PRODUCTS_DIR)/../../three20",
+					../../three20/Build/Products/three20,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lxml2",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -373,13 +956,18 @@
 		ABA223C7143245BD0076078E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Helena Tannure/Helena Tannure-Prefix.pch";
 				INFOPLIST_FILE = "Helena Tannure/Helena Tannure-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../three20/Build/Products/Debug-iphonesimulator\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -387,12 +975,17 @@
 		ABA223C8143245BD0076078E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Helena Tannure/Helena Tannure-Prefix.pch";
 				INFOPLIST_FILE = "Helena Tannure/Helena Tannure-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../three20/Build/Products/Debug-iphonesimulator\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +1054,7 @@
 				ABA223C8143245BD0076078E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABA223C9143245BD0076078E /* Build configuration list for PBXNativeTarget "Helena TannureTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +1063,7 @@
 				ABA223CB143245BD0076078E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
