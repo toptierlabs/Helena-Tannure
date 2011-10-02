@@ -7,6 +7,8 @@
 //
 
 #import "Helena_TannureAppDelegate.h"
+#import "NavController.h"
+#import "PhotoViewController.h"
 
 @implementation Helena_TannureAppDelegate
 
@@ -14,13 +16,51 @@
 @synthesize window=_window;
 
 @synthesize tabBarController=_tabBarController;
+@synthesize navController;
+@synthesize homeViewController;
+@synthesize agendaViewController;
+@synthesize photoViewController;
+@synthesize listVideoTableViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
+    
+//    [[TTURLRequestQueue mainQueue] setMaxContentLength:0];
+//    
+//    TTNavigator *navigator = [TTNavigator navigator];
+//    navigator.window = self.window;
+//    
+//    TTURLMap *map = navigator.URLMap;
+//    [map from:@"tt://appPhotos" toSharedViewController:[PhotoViewController class]];
+//    
+//    [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://appPhotos"]];
+//    
+    tabBarController = [[UITabBarController alloc] init];   
+    
+    homeViewController = [[HomeViewController alloc] init];
+    agendaViewController = [[AgendaViewController alloc] init];
+    photoViewController = [[PhotoViewController alloc] init];
+   // photoViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    listVideoTableViewController = [[ListVideoTableViewController alloc] init];
+    navController = [[[NavController alloc] initWithRootViewController:listVideoTableViewController] autorelease];
+    
+    UINavigationController *photoNavController = [[[UINavigationController alloc] initWithRootViewController:photoViewController] autorelease];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:homeViewController,agendaViewController,navController,photoNavController, nil];
+    
+    //homeViewController,agendaViewController,navController, 
+    
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    return YES;
+ 
+    
+}
+
+-(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    TTOpenURL([url absoluteString]);
     return YES;
 }
 
@@ -67,6 +107,11 @@
 {
     [_window release];
     [_tabBarController release];
+    [listVideoTableViewController release];
+    [navController release];
+    [homeViewController release];
+    [agendaViewController release];
+    [photoViewController release];
     [super dealloc];
 }
 

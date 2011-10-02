@@ -7,13 +7,38 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import <Three20/Three20.h>
+@class NavController;
+@class HomeViewController;
+@class AgendaViewController;
+@class PhotoViewController;
+@class ListVideoTableViewController;
 
 @interface Helena_TannureAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
-
+    UIWindow *window;
+     UITabBarController *tabBarController;
+     HomeViewController *homeViewController;
+     AgendaViewController *agendaViewController;
+     PhotoViewController *photoViewController;
+     ListVideoTableViewController *listVideoTableViewController;
+     NavController *navController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain)  UITabBarController *tabBarController;
+@property (nonatomic, retain)  NavController *navController;
+@property (nonatomic, retain)  HomeViewController *homeViewController;
+@property (nonatomic, retain)  AgendaViewController *agendaViewController;
+@property (nonatomic, retain)  PhotoViewController *photoViewController;
+@property (nonatomic, retain)  ListVideoTableViewController *listVideoTableViewController;
+
+@property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+- (NSURL *)applicationDocumentsDirectory;
+- (void)saveContext;
 
 @end
