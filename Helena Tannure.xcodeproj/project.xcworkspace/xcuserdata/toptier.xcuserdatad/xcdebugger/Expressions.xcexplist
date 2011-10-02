@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesStackState
+   version = "1.0">
+   <StackStates>
+      <StackState
+         stackFrameDescription = "-[AgendaViewController tableView:didSelectRowAtIndexPath:]:AgendaViewController.m">
+         <expressions>
+            <expression
+               value = "responseHTML">
+            </expression>
+         </expressions>
+      </StackState>
+      <StackState
+         stackFrameDescription = "-[AgendaViewController tableView:cellForRowAtIndexPath:]:AgendaViewController.m">
+         <expressions>
+            <expression
+               value = "[listOfDaysMonths objectAtIndex:indexPath.row]">
+            </expression>
+         </expressions>
+      </StackState>
+   </StackStates>
+</VariablesStackState>
