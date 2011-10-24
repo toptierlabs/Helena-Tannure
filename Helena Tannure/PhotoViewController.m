@@ -4,7 +4,8 @@
 
 @implementation PhotoViewController
 @synthesize images;
-
+@synthesize dicPhotos;
+@synthesize keysPhotos;
 
 
 - (id)init
@@ -12,9 +13,10 @@
 	if ((self = [super init])) 
 	{
 		// Initialization code
-		self.title = @"All in Vain";
+		self.title = @"Fotos";
 		self.hidesBottomBarWhenPushed=NO;
 		self.tabBarItem.image = [UIImage imageNamed:@"020-Appointment.png"];
+        
 	}
 	return self;
 }
@@ -24,9 +26,27 @@
     
     images = [[NSMutableArray alloc] init];
     
-    [images addObject:[[Photo alloc] initWithURL:@"http://farm4.static.flickr.com/3099/3164979221_6c0e583f7d.jpg?v=0" smallURL:@"http://farm4.static.flickr.com/3099/3164979221_6c0e583f7d_t.jpg" size:CGSizeMake(320, 480)]];
+    NSString *pathPhotos = [[NSBundle mainBundle] pathForResource:@"Photos" ofType:@"plist"];    
+    NSDictionary *dicPhotos = [[NSDictionary alloc] initWithContentsOfFile:pathPhotos];
+
+    self.dicPhotos = dicPhotos;
     
-     [images addObject:[[Photo alloc] initWithURL:@"http://farm4.static.flickr.com/3099/3164979221_6c0e583f7d.jpg?v=0" smallURL:@"http://farm4.static.flickr.com/3099/3164979221_6c0e583f7d_t.jpg" size:CGSizeMake(320, 480)]];
+    NSArray *arrayKeys = [self.dicPhotos allKeys];
+    self.keysPhotos = arrayKeys;
+    
+    for (NSString *key in self.keysPhotos){
+        NSString *paths = [self.dicPhotos objectForKey:key];
+        NSRange range = [paths rangeOfString:@";"];
+        NSString *subStrThumb = [NSString stringWithString: [paths substringToIndex:range.location ]];
+        NSString *subStrSmall = [NSString stringWithString: [paths substringFromIndex: range.location + 1 ]];
+        [images addObject:[[Photo alloc] initWithURL:[NSString stringWithFormat:@"bundle://%@",subStrSmall] smallURL:[NSString stringWithFormat:@"bundle://%@",subStrThumb] size:CGSizeMake(1024, 768)]];
+
+    }
+    
+//    [images addObject:[[Photo alloc] initWithURL:@"bundle://rpg_calc_small.png" smallURL:@"bundle://rpg_calc_thumb.png" size:CGSizeMake(1024, 768)]];
+//    
+//    [images addObject:[[Photo alloc] initWithURL:@"bundle://math_ninja_small.png" smallURL:@"bundle://math_ninja_thumb.png" size:CGSizeMake(1024, 768)]];
+//    
     
 }
 
@@ -35,7 +55,7 @@
 	[self createPhotos]; // method to set up the photos array
 	self.photoSource = [[PhotoSource alloc]
 						initWithType:PhotoSourceNormal
-						title:@"All in Vain"
+						title:@"Fotos"
 						photos:images
 						photos2:nil];
 }

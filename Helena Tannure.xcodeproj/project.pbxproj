@@ -16,6 +16,8 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		AB113F7A14391AC4007F8F91 /* AgendaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB113F7914391AC4007F8F91 /* AgendaTableViewCell.xib */; };
+		AB3E71361438EDCA00325220 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB3E71351438EDCA00325220 /* Photos.plist */; };
 		AB5081D9143642B300BBA042 /* PhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5081D8143642B300BBA042 /* PhotoSource.m */; };
 		AB8E8F5F14352390002FBA74 /* instant_poetry_small.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5714352390002FBA74 /* instant_poetry_small.png */; };
 		AB8E8F6014352390002FBA74 /* instant_poetry_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8E8F5814352390002FBA74 /* instant_poetry_thumb.png */; };
@@ -42,6 +44,7 @@
 		ABA223E3143262060076078E /* AgendaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA223E1143262060076078E /* AgendaView.xib */; };
 		ABA223E5143271780076078E /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA223E4143271780076078E /* purple.png */; };
 		ABA223E7143271860076078E /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = ABA223E6143271860076078E /* grey.png */; };
+		ABBA0E8A143A2E5A00B15686 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBA0E89143A2E5A00B15686 /* arrow.png */; };
 		ABBAFB7614334D5D007E91C8 /* AgendaEventsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABBAFB7514334D5D007E91C8 /* AgendaEventsViewCell.xib */; };
 		ABBAFB7814335556007E91C8 /* tablecellgray.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAFB7714335556007E91C8 /* tablecellgray.png */; };
 		ABBAFB7A143356ED007E91C8 /* tablecellpink.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBAFB79143356ED007E91C8 /* tablecellpink.png */; };
@@ -234,6 +237,8 @@
 		320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = ../../three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		AB113F7914391AC4007F8F91 /* AgendaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgendaTableViewCell.xib; sourceTree = "<group>"; };
+		AB3E71351438EDCA00325220 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 		AB5081D7143642B300BBA042 /* PhotoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSource.h; sourceTree = "<group>"; };
 		AB5081D8143642B300BBA042 /* PhotoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSource.m; sourceTree = "<group>"; };
 		AB8E8F5714352390002FBA74 /* instant_poetry_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instant_poetry_small.png; sourceTree = "<group>"; };
@@ -262,6 +267,7 @@
 		ABA223E1143262060076078E /* AgendaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AgendaView.xib; path = "Helena Tannure/AgendaView.xib"; sourceTree = "<group>"; };
 		ABA223E4143271780076078E /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
 		ABA223E6143271860076078E /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		ABBA0E89143A2E5A00B15686 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		ABBAFB7514334D5D007E91C8 /* AgendaEventsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgendaEventsViewCell.xib; sourceTree = "<group>"; };
 		ABBAFB7714335556007E91C8 /* tablecellgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablecellgray.png; sourceTree = "<group>"; };
 		ABBAFB79143356ED007E91C8 /* tablecellpink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablecellpink.png; sourceTree = "<group>"; };
@@ -473,6 +479,7 @@
 		ABA223CC143248F90076078E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ABBA0E89143A2E5A00B15686 /* arrow.png */,
 				AB8E8F5714352390002FBA74 /* instant_poetry_small.png */,
 				AB8E8F5814352390002FBA74 /* instant_poetry_thumb.png */,
 				AB8E8F5914352390002FBA74 /* level_me_up_small.png */,
@@ -488,6 +495,7 @@
 				ABA223DD1432606E0076078E /* rounded_blue_home_button_4805.png */,
 				ABA223E4143271780076078E /* purple.png */,
 				ABA223E6143271860076078E /* grey.png */,
+				AB113F7914391AC4007F8F91 /* AgendaTableViewCell.xib */,
 				ABA2239F143245BD0076078E /* MainWindow.xib */,
 				ABA223D614324EB80076078E /* HomeView.xib */,
 				ABA223E1143262060076078E /* AgendaView.xib */,
@@ -497,6 +505,7 @@
 				ABDF40DF1434DAFF00704B21 /* YoutubeView.xib */,
 				ABDF40D91434C17400704B21 /* VideosPrincipal.plist */,
 				ABDF40DB1434C18100704B21 /* VideosExtra.plist */,
+				AB3E71351438EDCA00325220 /* Photos.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -764,6 +773,9 @@
 				AB8E8F6414352390002FBA74 /* math_ninja_thumb.png in Resources */,
 				AB8E8F6514352390002FBA74 /* rpg_calc_small.png in Resources */,
 				AB8E8F6614352390002FBA74 /* rpg_calc_thumb.png in Resources */,
+				AB3E71361438EDCA00325220 /* Photos.plist in Resources */,
+				AB113F7A14391AC4007F8F91 /* AgendaTableViewCell.xib in Resources */,
+				ABBA0E8A143A2E5A00B15686 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

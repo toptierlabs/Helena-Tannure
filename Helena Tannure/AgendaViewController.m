@@ -43,6 +43,9 @@ NSMutableString *responseHTML;
         [bImg setContentMode:UIViewContentModeScaleToFill];
         cell.backgroundView=aImg;
         cell.selectedBackgroundView=bImg;
+
+
+        
         [aImg release];
         [bImg release];
         return cell;
@@ -72,10 +75,18 @@ NSMutableString *responseHTML;
     if (tableView == tblDates) {
         cell.textLabel.backgroundColor = [UIColor clearColor];
         cell.detailTextLabel.backgroundColor = [UIColor clearColor];
+        
+        
     }
 
 }
 
+
+-(void) tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tblDates cellForRowAtIndexPath:indexPath];
+    UIView *subview = [[cell.contentView subviews] objectAtIndex:([[cell.contentView subviews] count] -1)];
+    [subview removeFromSuperview];
+}
 
 - (void) tableView:(UITableView *)tableView 
     didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -86,10 +97,7 @@ NSMutableString *responseHTML;
 
         
         NSData *data = [temp dataUsingEncoding:NSUTF16StringEncoding];
-        
-               
-        NSLog(@"TEXTo: %@ ",responseHTML);
-        
+
         // Create parser
         TFHpple *xpathParser = [[TFHpple alloc] initWithHTMLData:data];
         
@@ -113,16 +121,25 @@ NSMutableString *responseHTML;
         texto = [texto stringByReplacingOccurrencesOfString:@"\n" withString:@""];
         texto = [texto stringByReplacingOccurrencesOfString:@"\t" withString:@""];
         
-
-        NSLog(@"Hola: %@ ",hora);
-        
-         NSLog(@"textoCinre: %@ ",texto);
-        
-
        //TODO:Ver como acomodar estas dos cisas
        [listOfEventsHour addObject:hora];
        [listOfEventsDesc addObject:texto];
 
+        
+        NSIndexPath *index = [tblDates indexPathForSelectedRow];
+        if (index != nil){
+            if (index.row == indexPath.row)
+            {
+                CGRect rect=CGRectMake(10, 10, 20, 20);
+                UIImageView *aView = [[UIImageView alloc] initWithFrame:rect];
+                aView.image = [UIImage imageNamed:@"arrow.png"];
+                [aView setFrame:CGRectMake(49 , 10, 20, 20)];
+                UITableViewCell *cell = [tblDates cellForRowAtIndexPath:indexPath];
+
+                tblDates.clipsToBounds = NO;
+                [cell.contentView addSubview:aView];
+            }
+        }
         
         [tblEvents reloadData];
     }

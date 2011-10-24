@@ -11,6 +11,8 @@
 
 @implementation AgendaTableViewCell
 
+
+
 -(void) setLabelText:(NSString *) _text{
     cellText.text = _text;
 }

@@ -16,6 +16,7 @@
 }
 
 @property (nonatomic, retain) NSMutableArray *images;
-
+@property (nonatomic,retain) NSDictionary *dicPhotos;
+@property (nonatomic,retain) NSArray   *keysPhotos;
 
 @end

@@ -59,6 +59,8 @@
     
 }
 
+
+
 -(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url{
     TTOpenURL([url absoluteString]);
     return YES;
